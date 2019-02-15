@@ -309,7 +309,6 @@ i.fas{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	
 }
 
 .footer li a{
@@ -337,4 +336,11 @@ li i {
 
 .footer-link a:hover{
 	text-decoration: underline;
+}
+
+.copyright{
+	display: flex;
+	justify-content: center;
+	background-color: #212529;
+	color: white;
 }
