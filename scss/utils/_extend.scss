@@ -1,0 +1,19 @@
+%footer-infos {
+    width: 300px;
+    margin: 0 32px 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+%star-line {
+    width: 90px;
+    height: 5px;
+    background-color: $white;
+    border: none;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 15px;
+}

@@ -1,0 +1,36 @@
+body{
+  margin: 80px 0 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  width: 80%;
+  margin: 0 auto; 
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hr-star {
+  margin-bottom: 16px;
+  position: relative;
+  font-size: 30px;
+  &:before {
+      @extend %star-line;
+      left: -90px;
+  }
+  &:after {
+      @extend %star-line;
+      right: -90px;
+  }
+}
+
+.icon{
+  margin: 0 5px;
+}
