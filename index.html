@@ -1,115 +1,139 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<title>FREELANCER</title>
-	<meta name="viewport">
-	<link rel="stylesheet" type="text/css" media="screen" href="css\main.css">
-	<link href="https://fonts.googleapis.com/css?family=Lato:400|Montserrat:700" rel="stylesheet">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <meta charset="utf-8">
+  <title>FREELANCER</title>
+  <meta name="viewport">
+  <link rel="stylesheet" type="text/css" media="screen" href="css\main.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400|Montserrat:700" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 </head>
 <body>
-	<header class="header font-montserrat">
-		<div class="container">
-			<h1><a href="#profile">START BOOTSTRAP</a></h1>
-			<nav>
-				<ul class="navigation">
-					<li><a href="#portfolio">PORTFOLIO</a></li>
-					<li><a href="#about">ABOUT</a></li>
-					<li><a href="#contact">CONTACT</a></li>
-				</ul>
-			</nav>
-		</div>
-	</header>
-	<main>
-		<section class="profile" id="profile">
-			<div class="container">
-				<figure>
-					<img src="assets\images\profile.png">
-				</figure>
-				<h1 class="font-montserrat">START BOOTSTRAP</h1>
-				<div class="hr-star"><i class="fas fa-star"></i></div>
-				<h4 class="font-lato">Web Developer - Graphic Artist - User Experience Designer</h4>
-			</div>
-		</section>
-		<section id="portfolio" class="portfolio container">
-			<h2 class="font-montserrat">PORTFOLIO</h2>
-			<div class="hr-star"><i class="fas fa-star"></i></div>
-			<div>
-				<img src="assets/images/portfolio/cabin.png">
-				<img src="assets/images/portfolio/cake.png">
-				<img src="assets/images/portfolio/circus.png">
-				<img src="assets/images/portfolio/game.png">
-				<img src="assets/images/portfolio/safe.png">
-				<img src="assets/images/portfolio/submarine.png">
-			</div>
-		</section>
-		<section class="about" id="about">
-			<div class="container">
-				<h2 class="font-montserrat">ABOUT</h2>
-				<div class="hr-star"><i class="fas fa-star"></i></div>
-				<div class="container-article">
-					<article class="font-lato">
-						Freelancer is a free bootstrap theme
-						created by Start Bootstrap. The
-						download includes the complete source
-						files including HTML, CSS, and
-						JavaScript as well as optional LESS
-						stylesheets for easy customization.
-					</article>
-					<article class="font-lato">
-						Whether you're a student looking to
-						showcase your work, a professional
-						looking to attract clients, or a graphic
-						artist looking to share your projects, this
-						template is the perfect starting point!
-					</article>
-				</div>
-				<button class="btn-download font-lato"><i class="fas fa-download"></i>Download Theme</button>
-			</div>
-		</section>
-		<section  id="contact" class="contact">
-			<form class="container">
-				<h2 class="font-montserrat">CONTACT ME</h2>
-				<div class="hr-star"><i class="fas fa-star"></i></div>
-				<input class="font-lato" type="text" name="complete-name" placeholder="Name">
-				<hr class="contact-hr">
-				<input class="font-lato" type="email" name="mail" placeholder="Email Adress">
-				<hr class="contact-hr">
-				<input class="font-lato" type="tel" name="phone" placeholder="Phone Number">
-				<hr class="contact-hr">
-				<textarea class="font-lato" name="message" placeholder="Message"></textarea>
-				<hr class="contact-hr">
-				<button class="btn-send font-lato" name="send">Send</button>
-			</form> 
-		</section>    
-	</main>
-	<footer class="footer">
-		<section class="container">
-			<div>
-				<h3 class="font-montserrat">LOCATION</h3>
-				<p class="font-lato">3481 Melrose Place<br>Beverly Hills, CA 90210</p>
-			</div>
-			<div>
-				<h3 class="font-montserrat">AROUND THE WEB</h3>
-				<ul>
-					<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-					<li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-					<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-					<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-					<li><a href="#"><i class="fab fa-dribbble"></i></a></li>
-				</ul>
-			</div>
-			<div>
-				<h3 class="font-montserrat">ABOUT FREELANCER</h3>
-				<p class="footer-link font-lato">Freelance is a free to use, open source
-					Bootstrap theme created by <a href="#">Start Bootstrap</a>.</p>
-				</div>
-			</section>	
-		</footer>
-		<label class="copyright">
-			<p class="font-lato">Copyright © Your Website 2019</p>
-		</label>
-	</body>
-	</html>
-	
+  <header class="header font-montserrat">
+    <div class="container">
+      <h1 class="header-title"><a href="#profile">START BOOTSTRAP</a></h1>
+      <nav>
+        <ul class="navigation-list">
+          <li class="navigation-item"><a href="#portfolio">PORTFOLIO</a></li>
+          <li class="navigation-item"><a href="#about">ABOUT</a></li>
+          <li class="navigation-item"><a href="#contact">CONTACT</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  
+  <main>
+    <section class="profile" id="profile">
+      <div class="container">
+        <img class="profile-image" src="assets\images\profile.png">
+        <h2 class="profile-title font-montserrat">START BOOTSTRAP</h2>
+        <div class="hr-star"><i class="icon fas fa-star"></i></div>
+        <h3 class="font-lato">Web Developer - Graphic Artist - User Experience Designer</h3>
+      </div>
+    </section>
+    
+    <section id="portfolio" class="portfolio container">
+      <h2 class="section-title font-montserrat">PORTFOLIO</h2>
+      <div class="hr-star"><i class="icon fas fa-star"></i></div>
+      <ul class="portfolio-list">
+        <li class="portfolio-item">
+          <img src="assets/images/portfolio/cabin.png">
+        </li>
+        <li class="portfolio-item">
+          <img src="assets/images/portfolio/cake.png">
+        </li>
+        <li class="portfolio-item">
+          <img src="assets/images/portfolio/circus.png">
+        </li>
+        <li class="portfolio-item">
+          <img src="assets/images/portfolio/game.png">
+        </li>
+        <li class="portfolio-item">
+          <img src="assets/images/portfolio/safe.png">
+        </li>
+        <li class="portfolio-item">
+          <img src="assets/images/portfolio/submarine.png">
+        </li>
+      </ul>
+    </section>
+    
+    <section id="about" class="about">
+      <div class="container">
+        <h2 class="section-title font-montserrat">ABOUT</h2>
+        <div class="hr-star"><i class="icon fas fa-star"></i></div>
+        <div class="about-group">
+          <article class="about-description font-lato">
+            <p>
+              Freelancer is a free bootstrap theme
+              created by Start Bootstrap. The
+              download includes the complete source
+              files including HTML, CSS, and
+              JavaScript as well as optional LESS
+              stylesheets for easy customization.
+            </p>
+          </article>
+          <article class="about-description font-lato">
+            <p>
+              Whether you're a student looking to
+              showcase your work, a professional
+              looking to attract clients, or a graphic
+              artist looking to share your projects, this
+              template is the perfect starting point!
+            </p>
+          </article>
+        </div>
+        <button class="btn-download font-lato"><i class="icon fas fa-download"></i>Download Theme</button>
+      </div>
+    </section>
+    
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="section-title font-montserrat">CONTACT ME</h2>
+        <div class="hr-star"><i class="icon fas fa-star"></i></div>
+        <form class="contact-form">
+          <label class="font-lato" for="complete-name">Name
+            <input type="text" name="complete-name" id="complete-name">
+          </label>
+          <label class="font-lato" for="mail">Email Adress
+            <input type="email" name="mail" id="mail">
+          </label>
+          <label class="font-lato" for="phone">Phone
+            <input type="tel" name="phone" id="phone">
+          </label>
+          <label class="font-lato" for="message">Message
+            <textarea name="message" id="message" ></textarea>
+          </label>
+          <button class="btn-send font-lato" name="send">Send</button>
+        </form> 
+      </div>
+    </section>    
+  </main>
+  
+  <footer class="footer">
+    <section class="container">
+      <div class="footer-location">
+        <h3 class="footer-title font-montserrat">LOCATION</h3>
+        <p class="font-lato">3481 Melrose Place</p>
+        <p class="font-lato">Beverly Hills, CA 90210</p>
+      </div>
+      <div class="footer-social">
+        <h3 class="footer-title font-montserrat">AROUND THE WEB</h3>
+        <ul class="footer-social-list">
+          <li class="footer-social-item"><a href="#"><i class="icon fab fa-facebook-f"></i></a></li>
+          <li class="footer-social-item"><a href="#"><i class="icon fab fa-google-plus-g"></i></a></li>
+          <li class="footer-social-item"><a href="#"><i class="icon fab fa-twitter"></i></a></li>
+          <li class="footer-social-item"><a href="#"><i class="icon fab fa-linkedin-in"></i></a></li>
+          <li class="footer-social-item"><a href="#"><i class="icon fab fa-dribbble"></i></a></li>
+        </ul>
+      </div>
+      <div class="footer-about">
+        <h3 class="footer-title font-montserrat">ABOUT FREELANCER</h3>
+        <p class="font-lato">Freelance is a free to use, open source
+          Bootstrap theme created by <a href="#" class="footer-link">Start Bootstrap</a>.
+        </p>
+      </div>
+    </section>	
+  </footer>
+  <p class="copyright font-lato">Copyright © Your Website 2019</p>
+</body>
+</html>
