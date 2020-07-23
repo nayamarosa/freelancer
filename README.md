@@ -3,6 +3,4 @@
 * Fontes utilizadas: `Montserrat` e `Lato`
 * Ícones encontrados em [Font Awesome](http://fontawesome.io/)
 
-*testando
-*teste sabino
-*agora vai
+Executar o npm install para instalar o Sass que já está nas dependências
